@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Mapas Livres</title>
+ <link href="http://www.mapaslivres.org/atom.xml" rel="self"/>
+ <link href="http://www.mapaslivres.org"/>
+ <updated>2012-12-01T15:08:18-06:00</updated>
+ <id>http://www.mapaslivres.org</id>
+ <author>
+   <name>Vitor George</name>
+   <email>vitor.george@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Oficina de Mapas para a DAL</title>
+   <link href="http://www.mapaslivres.org/2012/11/11/oficina-de-mapas-para-a-dal"/>
+   <updated>2012-11-11T00:00:00-06:00</updated>
+   <id>http://www.mapaslivres.org/2012/11/11/oficina-de-mapas-para-a-dal</id>
+   <content type="html">&lt;p&gt;No dia 24 de novembro vão ser realizadas oficinas de mapas para os participantes da Desarrollando América Latina (DAL), maratona hacker que acontecerá nos dias 1 e 2 dezembro simultaneamente na Argentina, Bolívia, Costa Rica, Chile, México, Peru, Uruguai e Brasil.&lt;/p&gt;
+
+&lt;p&gt;Saiba mais e inscreva-se no site oficial do evento: &lt;a href='http://www.desarrollandoamerica.org'&gt;Desarrollando América Latina 2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Estas oficinas são dirigidas a hackers que querem desenvolver aplicações que utilizam dados geo-espaciais abertos. As oficinas serão em português e espanhol, por Vitor George (deste Mapas Livres) e Alex Barth (da Mapbox), respectivamente. Veja o anúncio da oficina em espanhol &lt;a href='http://mapbox.com/blog/talleres-mapeo-desarrollando-america-latina'&gt;aqui&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id='oficina_1'&gt;Oficina 1&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Introdução ao OpenStreetMap, aplicações que utilizam dados do OSM e maneiras de contribuir com o mapa aberto do mundo.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Data: 24 de novembro de 2012&lt;/li&gt;
+
+&lt;li&gt;Horário: 14h00 (Brasília)&lt;/li&gt;
+
+&lt;li&gt;Duração: 1h30&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='oficina_2'&gt;Oficina 2&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Como produzir seus próprios mapas utilizando ferramentas livres, com dados do OpenStreetMap e outras fontes abertas.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Data: 24 de novembro de 2012&lt;/li&gt;
+
+&lt;li&gt;Horário: 16h00 (Brasília)&lt;/li&gt;
+
+&lt;li&gt;Duração: 1h30&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='como_participar'&gt;Como participar?&lt;/h2&gt;
+
+&lt;p&gt;As oficinas acontecerão por webcast. O link para assistir será publicado aqui no site e no twitter &lt;a href='http://www.twitter.com/mapaslivres'&gt;@mapaslivres&lt;/a&gt;.&lt;/p&gt;</content>
+ </entry>
+ 
+ 
+</feed>
