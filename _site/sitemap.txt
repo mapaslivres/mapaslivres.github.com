@@ -7,4 +7,6 @@ http://www.mapaslivres.org/pages.html
 http://www.mapaslivres.org/sitemap.txt
 http://www.mapaslivres.org/tags.html
 
+http://www.mapaslivres.org/2012/11/26/elementos-basicos-do-openstreetmap
+http://www.mapaslivres.org/2012/11/24/oficina-de-mapas-entrar-no-ar-hoje-as-14h
 http://www.mapaslivres.org/2012/11/11/oficina-de-mapas-para-a-dal

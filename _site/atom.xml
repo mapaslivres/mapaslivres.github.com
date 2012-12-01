@@ -4,13 +4,57 @@
  <title>Mapas Livres</title>
  <link href="http://www.mapaslivres.org/atom.xml" rel="self"/>
  <link href="http://www.mapaslivres.org"/>
- <updated>2012-12-01T15:08:18-06:00</updated>
+ <updated>2012-12-01T15:29:17-06:00</updated>
  <id>http://www.mapaslivres.org</id>
  <author>
    <name>Vitor George</name>
    <email>vitor.george@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Elementos básicos do OpenStreetMap</title>
+   <link href="http://www.mapaslivres.org/2012/11/26/elementos-basicos-do-openstreetmap"/>
+   <updated>2012-11-26T00:00:00-06:00</updated>
+   <id>http://www.mapaslivres.org/2012/11/26/elementos-basicos-do-openstreetmap</id>
+   <content type="html">&lt;p&gt;Os elementos básicos que compõem o modelo de dados do OpenStreetMap são &lt;strong&gt;nós&lt;/strong&gt;, &lt;strong&gt;caminhos&lt;/strong&gt; e &lt;strong&gt;relações&lt;/strong&gt;, todos estes combinados com &lt;strong&gt;etiquetas&lt;/strong&gt; ou &lt;strong&gt;&lt;em&gt;tags&lt;/em&gt;&lt;/strong&gt; que definem o que elemento representa no mundo real.&lt;/p&gt;
+
+&lt;p&gt;Não existe restrições para adicionar, editar ou remover elementos do OpenStreetMap, assim como suas &lt;strong&gt;&lt;em&gt;tags&lt;/em&gt;&lt;/strong&gt; podem assumir qualquer valor. Isto proporciona muita flexibilidade sobre o que pode ser mapeado, mas traz a necessidade de se ter um “idioma” para que as pessoas que produzem e utilizam dados do OpenStreetMap possam compartilhar sem dificuldades.&lt;/p&gt;
+
+&lt;p&gt;Este &amp;#8220;idioma&amp;#8221; são as convenções de &lt;strong&gt;&lt;em&gt;tags&lt;/em&gt;&lt;/strong&gt; definidas pela comunidade do OpenStreetMap. A lista está no wiki, nesta página:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href='http://wiki.openstreetmap.org/wiki/Map_Features'&gt;http://wiki.openstreetmap.org/wiki/Map_Features&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Esta página deveria estar nos favoritos de todo bom mapeador. Aí é possível encontrar praticamente tudo o que as pessoas vem mapeando no OpenStreetMap. Existe uma versão em português também, mas geralmente está desatualizada por falta de tradutoção:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href='http://wiki.openstreetmap.org/wiki/Pt-br:Map_Features'&gt;Map Features em Português&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Nesta página do wiki é possível descobrir que para adicionar um bicicletário ao mapa é necessário usar a &lt;strong&gt;&lt;em&gt;tag&lt;/em&gt;&lt;/strong&gt; &amp;#8220;amenity=bicycle_parking&amp;#8221;, e que podemos associar outras &lt;strong&gt;&lt;em&gt;tags&lt;/em&gt;&lt;/strong&gt; para ter mais informação sobre o bicicletário a ser mapeado, como as seguintes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&amp;#8220;capacity&amp;#8221; = o número de bicicletas que podem ser estacionadas;&lt;/li&gt;
+
+&lt;li&gt;&amp;#8220;covered&amp;#8221; = se o bicicletário tem cobertura;&lt;/li&gt;
+
+&lt;li&gt;&amp;#8220;access=&amp;#8221; = se o bicletário é público ou não;&lt;/li&gt;
+
+&lt;li&gt;&amp;#8220;fee=&amp;#8221; = se é cobrado para usar o bicicletário.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Veja toda a descrição da tag:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href='http://wiki.openstreetmap.org/wiki/Tag:amenity=bicycle_parking'&gt;http://wiki.openstreetmap.org/wiki/Tag:amenity=bicycle_parking&lt;/a&gt;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Link para a Oficina de Mapas, hoje às 14h</title>
+   <link href="http://www.mapaslivres.org/2012/11/24/oficina-de-mapas-entrar-no-ar-hoje-as-14h"/>
+   <updated>2012-11-24T00:00:00-06:00</updated>
+   <id>http://www.mapaslivres.org/2012/11/24/oficina-de-mapas-entrar-no-ar-hoje-as-14h</id>
+   <content type="html">&lt;p&gt;A partir das 14h de Brasília vai começar as oficinas de mapas preparatórias para o Desarrollando America Latina.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href='http://www.anymeeting.com/mapaslivres1'&gt;CLIQUE AQUI PARA ABRIR O WEBCAST&lt;/a&gt;&lt;/p&gt;</content>
+ </entry>
  
  <entry>
    <title>Oficina de Mapas para a DAL</title>
