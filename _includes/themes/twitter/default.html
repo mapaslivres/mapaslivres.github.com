@@ -14,6 +14,20 @@
     <!-- Le styles -->
     <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/css/mapaslivres.css" rel="stylesheet">
+    
+    {% if page.map %}
+      <script src='http://api.tiles.mapbox.com/mapbox.js/v0.6.6/mapbox.js'></script>
+      <link href='http://api.tiles.mapbox.com/mapbox.js/v0.6.6/mapbox.css' rel='stylesheet' />
+
+      <script>
+        window.onload = function() {
+          var data = {{ page.map.geojson }}
+          mapbox.auto('map', 'mapaslivres.map-b9862wj4');
+        };
+      </script>
+      
+    {% endif %}
 
     <!-- Le fav and touch icons -->
   <!-- Update these with your own images

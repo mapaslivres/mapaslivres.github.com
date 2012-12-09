@@ -1,5 +1,6 @@
 ---
 layout: page
+image: 
 ---
 {% include JB/setup %}
 
@@ -9,22 +10,24 @@ layout: page
     <div class="miniposts">
       {% for post in site.posts %}
         <div class="minipost row">
-          <div class="minipost-img span3">
+          <h6 class="post-info">
+            {{post.date | date: "%d.%m.%Y" }}
+          </h6>
+          <h2 class="headline">
+            <a href="{{ BASE_PATH }}{{post.url}}">
+              {{post.title}}              
+            </a>
+          </h2>
+          <div class="minipost img span3">
             <img src="{{ BASE_PATH }}/images/mapamundi-small.png">
           </div>
           <div class="minipost-info span6">
-            <div class="minipost-date postinfo">
-              Publicado em {{post.date | date: "%d/%m/%Y" }}
-            </div>
-            <h2>
-              <a href="{{ BASE_PATH }}{{post.url}}">
-                {{post.title}}
-              </a>
-            </h2>
             <p>
-              {{post.intro}}              
+              {{post.intro}}
+              <a href="{{ BASE_PATH }}{{post.url}}" class="more-link">→ Ler mais</a>
             </p>
           </div>
+
         </div>
       {% endfor %}
     </div>    

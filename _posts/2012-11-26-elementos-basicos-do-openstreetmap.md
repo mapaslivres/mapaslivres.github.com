@@ -4,7 +4,7 @@ title: "Elementos básicos do OpenStreetMap"
 description: ""
 category: 
 tags: []
-intro: "Para começar a contribuir com o OpenStreetMap é necessário conhecer os elementos básicos de mapeamento. Este post explica quais são, e como representar um bicicletário no OpenStreetMap."
+intro: "Para começar a contribuir com o OpenStreetMap é necessário conhecer os elementos básicos de mapeamento. Este post explica quais são, e como representar um bicicletário no OpenStreetMap. Não existe restrições para adicionar, editar ou remover elementos do OpenStreetMap, assim como suas tags podem assumir qualquer valor. Isto proporciona muita flexibilidade sobre o que pode ser mapeado..."
 ---
 {% include JB/setup %}
 
@@ -16,7 +16,7 @@ Este "idioma" são as convenções de ***tags*** definidas pela comunidade do Op
 
 [http://wiki.openstreetmap.org/wiki/Map_Features](http://wiki.openstreetmap.org/wiki/Map_Features)
 
-Esta página deveria estar nos favoritos de todo bom mapeador. Aí é possível encontrar praticamente tudo o que as pessoas  vem mapeando no OpenStreetMap. Existe uma versão em português também, mas geralmente está desatualizada por falta de tradutoção:
+Esta página deveria estar nos favoritos de todo bom mapeador. Aí é possível encontrar praticamente tudo o que as pessoas  vem mapeando no OpenStreetMap. Existe uma versão em português também, mas geralmente está desatualizada por falta de tradução:
 
 [Map Features em Português](http://wiki.openstreetmap.org/wiki/Pt-br:Map_Features)
 
