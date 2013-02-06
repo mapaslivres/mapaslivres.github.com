@@ -1,3 +1,4 @@
+_site/
 .DS_Store
 .DS_Store?
 ._*
@@ -6,3 +7,16 @@
 Icon?
 ehthumbs.db
 Thumbs.db
+
+Gemfile.lock
+test/dest
+*.gem
+pkg/
+*.swp
+*~
+
+.bundle/
+bbin/
+gh-pages/
+site/_site/
+coverage
