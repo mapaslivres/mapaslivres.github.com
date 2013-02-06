@@ -2,8 +2,8 @@
 layout: post
 title: "Oficina de Mapas para a DAL"
 description: ""
-category: 
-tags: []
+category: eventos
+tags: [DAL, webcasts, oficinas]
 intro: "No dia 24 de novembro vão ser realizadas oficinas de mapas para os participantes da Desarrollando América Latina (DAL), maratona hacker que acontecerá nos dias 1 e 2 dezembro simultaneamente na Argentina, Bolívia, Costa Rica, Chile, México, Peru, Uruguai e Brasil."
 ---
 {% include JB/setup %}

@@ -37,6 +37,16 @@
   
   <!-- sidebar -->
   <div class="span4">
+
+    {% unless page.category == empty %}
+      <h4>Categorias</h4>
+      <ul class="tag_box">
+      {% assign categories_list = page.categories %}
+      {% include JB/categories_list %}
+      </ul>
+    {% endunless %}  
+    
+    
     {% unless page.tags == empty %}
       <h4>Tags</h4>
       <ul class="tag_box">
