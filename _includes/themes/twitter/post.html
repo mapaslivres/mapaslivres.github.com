@@ -1,10 +1,19 @@
+<!-- post content -->
 <div class="row">
+
   <div class="span8">
+    <!-- post date  -->
     <h6>{{ page.date | date: "%d.%m.%Y" }}</h6>
-    <h2 class="headline">{{ page.title }}</h2>
     
+    <!-- post title -->
+    <h2 class="headline">{{ page.title }}</h2>
+
+    <!-- post content -->
     {{ content }}
+
     <hr>
+
+    <!-- pagination controls -->    
     <div class="pagination">
       <ul>
       {% if page.previous %}
@@ -20,19 +29,23 @@
       {% endif %}
       </ul>
     </div>
-    <hr>
-    {% include JB/comments %}
-  </div>
-  </div>
-  <div class="span4">
-    <div class="date"><span></span></div>
 
-  {% unless page.tags == empty %}
-    <h4>Tags</h4>
-    <ul class="tag_box">
-    {% assign tags_list = page.tags %}
-    {% include JB/tags_list %}
-    </ul>
-  {% endunless %}  
+    {% include JB/comments %}
+
+
   </div>
+  
+  <!-- sidebar -->
+  <div class="span4">
+    {% unless page.tags == empty %}
+      <h4>Tags</h4>
+      <ul class="tag_box">
+      {% assign tags_list = page.tags %}
+      {% include JB/tags_list %}
+      </ul>
+    {% endunless %}  
+    
+  </div>
+
 </div>
+
