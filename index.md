@@ -26,25 +26,29 @@ image:
               {{post.intro}}
               <a href="{{ BASE_PATH }}{{post.url}}" class="more-link">→ Ler mais</a>
             </p>
-          </div>
+            <p>
 
+              {% unless post.categories == empty %}
+                {% assign categories_list = post.category %}
+                {% include JB/categories_inline_list %}
+              {% endunless %}  
+
+              
+              //
+              
+              {% unless post.tags == empty %}
+                {% assign tags_list = post.tags %}
+                {% include JB/tags_inline_list %}
+              {% endunless %}  
+              
+            </p>
+          </div>
         </div>
+
+
       {% endfor %}
     </div>    
   </div>
-  <div class="span3">
-    <div class="navbox">
-      <h2>
-        links
-      </h2>
-      <ul>
-        <li><a href="http://www.openstreetmap.org" target="_blank">site do openstreetmap</a></li>        
-        <li><a href="https://www.openstreetmap.org/user/new" target="_blank">criar uma conta no osm</a></li>
-        <li><a href="http://wiki.openstreetmap.org" target="_blank">wiki do openstreetmap</a></li>
-        <li><a href="http://lists.openstreetmap.org/listinfo/talk-br" target="_blank">lista de discussão do brasil</a></li>
-      </ul>
-    </div>
-  </div> 
 </div>
 
 

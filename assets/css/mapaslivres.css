@@ -30,3 +30,12 @@ a:hover {
   color: red;
 }
 
+/* CUSTOMIZATION OF TWITTER BOOTSTRAP THEME */
+
+.navbar {
+  width: 740px;
+}
+
+.container {
+  width: 700px;
+}

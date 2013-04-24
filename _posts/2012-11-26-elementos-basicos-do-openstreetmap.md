@@ -2,8 +2,8 @@
 layout: post
 title: "Elementos básicos do OpenStreetMap"
 description: ""
-category: 
-tags: []
+category: guias
+tags: [bicicletas]
 intro: "Para começar a contribuir com o OpenStreetMap é necessário conhecer os elementos básicos de mapeamento. Este post explica quais são, e como representar um bicicletário no OpenStreetMap. Não existe restrições para adicionar, editar ou remover elementos do OpenStreetMap, assim como suas tags podem assumir qualquer valor. Isto proporciona muita flexibilidade sobre o que pode ser mapeado..."
 ---
 {% include JB/setup %}

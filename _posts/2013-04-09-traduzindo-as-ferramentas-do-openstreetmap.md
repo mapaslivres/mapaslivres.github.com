@@ -2,7 +2,7 @@
 layout: post
 title: "Traduzindo as ferramentas do OpenStreetMap"
 description: ""
-category: 
+category: guias
 tags: [traduções]
 intro: "O OpenStreetMap tem diversas ferramentas de processamento, edição, análise, validação e renderização dos dados do projeto. Um desafio é manter estas ferramentas traduzidas para idiomas além do inglês, e este post mostra por onde começar a ajudar nesta tarefa."
 ---
