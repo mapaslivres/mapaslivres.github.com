@@ -1,12 +1,12 @@
 /* Override some defaults */
 html {
-  background-image: url('../../../../images/background.jpeg');
+  background-image: url('/images/background.jpeg');
 }
 
 html, body {
   background-color: transparent;
   padding: 15px;
-  
+
 }
 
 /* LINKS */
@@ -157,4 +157,3 @@ a:link {
 	border:1px solid #4C964D;
 	color:#FFF;
 }
-	
